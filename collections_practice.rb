@@ -10,4 +10,3 @@ array.sort do | left, right|
     right <=> left
   end
 end 
-
