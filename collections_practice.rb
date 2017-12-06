@@ -6,6 +6,7 @@ def sort_array_asc(array)
 end
 
 def sort_array_desc(array)
-array.sort_by {|a,b| -(a <=> b)}
- end
+array.sort | left, right|
+    right <=> left
+  end
 end
